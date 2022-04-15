@@ -1,5 +1,7 @@
 function ageFactor(age) {
-    if (age >= 20 && age < 25) {
+    if (age <=19) {
+        alert('Your age should be more than 19')
+    }   else if (age >= 20 && age < 25) {
         console.log('Congratulations!! You are eligible to get a bonus of 10%')
     }   else if (age >= 25 && age < 35) {
         console.log('Congratulations!! You are eligible to get a bonus of 12%')
